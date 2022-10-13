@@ -1,6 +1,5 @@
 {
   "name": "monorepo",
-  "version": "1.0.0",
   "description": "Test monorepo",
   "main": "index.js",
   "scripts": {
