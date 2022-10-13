@@ -3,5 +3,5 @@
 module.exports = paper;
 
 function paper() {
-    return "Hello from paperz";
+    return "Hello from paperzz";
 }
