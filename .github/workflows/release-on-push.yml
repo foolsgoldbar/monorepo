@@ -8,11 +8,11 @@ on:
 jobs:
   merge_job:
     # this job will only run if the PR has been merged
-    # if: ${{ contains(github.event.push.head_commit.message, 'Merge pull request') }}
+    if: ${{ contains(github.event.head_commit.message, 'Merge pull request') }}
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo PR ${{ github.event.head_commit.message }}, ${{ github.event }} has been merged and released 
+        echo Merged PR ${{ github.event.head_commit.id }} and released 
   
   # test:
   #   name: Test and release
