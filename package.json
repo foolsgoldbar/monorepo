@@ -1,9 +1,8 @@
 {
   "name": "monorepo",
   "description": "Test monorepo",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "release": "lerna publish --conventional-commits --yes --message 'chore: release'",
     "commit": "cz"
   },
@@ -35,18 +34,5 @@
       "path": "node_modules/cz-git",
       "czConfig": ".commitlintrc.js"
     }
-  },
-  "auto": {
-    "plugins": [
-      [
-        "npm",
-        {
-          "commitNextVersion": true,
-          "monorepoChangelog": false
-        }
-      ],
-      "conventional-commits"
-    ],
-    "onlyPublishWithReleaseLabel": true
   }
 }
