@@ -1,7 +1,9 @@
 'use strict';
+const rock = require('@foolbar/rock');
 
 module.exports = paper;
 
 function paper() {
-    return "Hello from paperzz";
+    rock();
+    return "Paper needs rock";
 }
