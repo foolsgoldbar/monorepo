@@ -7,14 +7,6 @@ on:
 
 jobs:
   merge_job:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     # this job will only run if the PR has been merged
     if: startsWith(github.event.head_commit.message, 'Merge pull request')
     runs-on: ubuntu-latest
