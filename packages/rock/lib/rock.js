@@ -3,5 +3,5 @@
 module.exports = rock;
 
 function rock() {
-    return "Hello from rockerzzz. Check it out, pleasess.";
+    return "Hello from rockerzzz. Check it out, please.";
 }
