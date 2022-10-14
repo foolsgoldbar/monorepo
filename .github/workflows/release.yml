@@ -2,7 +2,8 @@ name: Test and Release on merge to main
 
 on:
   push:
-    branches:[ main ]
+    branches:
+     - main
 
 jobs:
   test:
