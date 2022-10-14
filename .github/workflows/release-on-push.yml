@@ -11,8 +11,7 @@ jobs:
     if: startsWith(github.event.head_commit.message, 'Merge pull request')
     runs-on: ubuntu-latest
     steps:
-    - run: |
-        echo Merged PR ${{ github.event.head_commit.id }} and released 
+    - run: npm run release
   
   # test:
   #   name: Test and release
