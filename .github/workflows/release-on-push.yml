@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo PR has been merged and released
+        echo PR has been merged and released ${{ github.event.push.head_commit.message }}
   
   # test:
   #   name: Test and release
