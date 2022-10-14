@@ -9,8 +9,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-
-
 ## 0.2.2 (2022-10-14)
 
 **Note:** Version bump only for package @foolbar/rock
