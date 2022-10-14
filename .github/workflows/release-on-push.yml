@@ -30,10 +30,11 @@ jobs:
        git config --global user.name "Your Name"
 
     - name: Release
+      run: npm run release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npm run release
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
   
   # test:
   #   name: Test and release
