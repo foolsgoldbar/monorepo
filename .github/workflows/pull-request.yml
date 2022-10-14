@@ -23,6 +23,3 @@ jobs:
 
     - name: Install
       run: npm ci
-
-    - name: Test all packages
-      run: npm test --workspaces
