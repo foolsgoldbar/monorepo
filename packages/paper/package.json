@@ -24,8 +24,5 @@
   },
   "bugs": {
     "url": "https://github.com/foolsgoldbar/monorepo/issues"
-  },
-  "dependencies": {
-    "@foolbar/rock": "^0.2.9"
   }
 }
