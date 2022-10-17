@@ -7,5 +7,5 @@ function paper() {
     rock();
     rock();
     rock();
-    return "Paper needs rockz";
+    return "Paper needzs rockz";
 }
