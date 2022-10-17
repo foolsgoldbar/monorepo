@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/foolsgoldbar/monorepo/compare/@foolbar/paper@0.3.0...@foolbar/paper@2.0.0) (2022-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **paper:** HELLO
+
+### Features
+
+* **paper:** bump ([fd99e21](https://github.com/foolsgoldbar/monorepo/commit/fd99e2170cda2fd7d511e5359172f082fac287dd))
+
+
+
 ## [0.3.0](https://github.com/foolsgoldbar/monorepo/compare/@foolbar/paper@0.2.0...@foolbar/paper@0.3.0) (2022-10-17)
 
 
