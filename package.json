@@ -3,7 +3,7 @@
   "description": "Test monorepo",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "release": "lerna publish --conventional-commits --yes --message 'chore: release' --create-release github",
+    "release": "lerna publish --include-merged-tags --conventional-commits --yes --message 'chore: release' --create-release github",
     "commit": "cz"
   },
   "repository": {
