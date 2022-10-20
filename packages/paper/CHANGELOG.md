@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.0 (2022-10-20)
+
+
+### Features
+
+* **paper:** test ([17a613b](https://github.com/foolsgoldbar/monorepo/commit/17a613bdbb312cfa180bc898d5a95f260889f75d))
+
+
+
 ## [2.3.0](https://github.com/foolsgoldbar/monorepo/compare/@foolbar/paper@2.2.0...@foolbar/paper@2.3.0) (2022-10-17)
 
 
