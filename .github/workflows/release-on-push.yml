@@ -15,9 +15,10 @@ jobs:
         node-version: [16.x]
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Get tags
+      run: git fetch --tags origin
 
     - uses: actions/setup-node@v2
       with:
