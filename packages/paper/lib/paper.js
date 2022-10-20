@@ -6,5 +6,5 @@ module.exports = paper;
 function paper() {
     rock();
     rock();
-    return "Paper, paper";
+    return "Paper, paper, paper";
 }
