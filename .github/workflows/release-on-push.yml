@@ -20,21 +20,29 @@ jobs:
       with:
         fetch-depth: 0
   
-    - name: Get tags
+    - name: Get repo tags
       run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
     - uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Npm 7
+    - name: Install npm 7
       run: npm i -g npm@7 --registry=https://registry.npmjs.org
       
-    - run: npm ci
+    - name: NPM install
+      run: npm ci
 
-    - run: |
-       git config --global user.email "you@example.com"
-       git config --global user.name "Your Name"
+    - name: Set Github identity
+      run: |
+        git config --global user.email "github-actions@ci.com"
+        git config --global user.name "CI Agent"
+
+    - name: "Set NPM identity"
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: |
+        echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
 
     - name: Release
       run: npm run release
