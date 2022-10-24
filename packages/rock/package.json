@@ -1,0 +1,28 @@
+{
+  "name": "@foolbar/rock",
+  "version": "1.1.0",
+  "description": "> TODO: description",
+  "author": "Rich Gwozdz <rgwozdz@esri.com>",
+  "homepage": "https://github.com/foolsgoldbar/monorepo/tree/main/packages/rock#readme",
+  "license": "Apache-2.0",
+  "main": "lib/rock.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foolsgoldbar/monorepo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@foolsgoldbar/rock.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/foolsgoldbar/monorepo/issues"
+  }
+}
