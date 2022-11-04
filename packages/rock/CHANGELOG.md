@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.1
+
+### Patch Changes
+
+- 6762314: fix typo
+
 ## 1.2.0
 
 ### Minor Changes
