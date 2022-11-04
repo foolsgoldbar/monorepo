@@ -1,13 +1,14 @@
 {
-  "name": "@foolbar/paper",
-  "version": "2.6.1",
+  "name": "@foolbar/scissor",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Rich Gwozdz <rgwozdz@esri.com>",
-  "homepage": "https://github.com/foolsgoldbar/monorepo/tree/main/packages/paper#readme",
+  "homepage": "https://github.com/foolsgoldbar/monorepo/tree/main/packages/scissor#readme",
   "license": "Apache-2.0",
-  "main": "lib/paper.js",
+  "main": "lib/scissor.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -20,12 +21,12 @@
     "url": "git+https://github.com/foolsgoldbar/monorepo.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@foolsgoldbar/paper.test.js"
+    "test": "node ./__tests__/@foolsgoldbar/scissor.test.js"
   },
   "bugs": {
     "url": "https://github.com/foolsgoldbar/monorepo/issues"
   },
   "dependencies": {
-    "@foolbar/rock": "1.1.0"
+    "@foolbar/paper": "2.6.2"
   }
 }
