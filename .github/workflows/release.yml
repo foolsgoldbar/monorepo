@@ -33,7 +33,7 @@ jobs:
         git config --global user.email "github-actions@ci.com"
         git config --global user.name "CI Agent"
 
-    - name: "Set NPM identity"
+    - name: Set NPM identity
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
@@ -43,7 +43,7 @@ jobs:
       run: npm run version
     
     - name: Commit versioning changes
-      run: git add --all && git commit -m "chore: release" --no-verify
+      run: 'git add --all && git commit -m "chore: release" --no-verify'
     
     - name: Push versioning changes
       run: git push origin master --follow-tags --no-verify
