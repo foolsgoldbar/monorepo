@@ -46,7 +46,7 @@ jobs:
       run: 'git add --all && git commit -m "chore: release" --no-verify'
     
     - name: Push versioning changes
-      run: git push origin master --follow-tags --no-verify
+      run: git push origin main --follow-tags --no-verify
     
     - name: Publish to NPM
       run: npm run release:npm
