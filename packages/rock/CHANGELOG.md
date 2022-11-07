@@ -1,5 +1,14 @@
 # Change Log
 
+## 1.2.2
+
+### Patch Changes
+
+- df5e223: remove dwayne
+- 9cff248: Fix the output
+- 75621f2: adds the rock back in
+- 1b3b17c: change the text of rock
+
 ## 1.2.1
 
 ### Patch Changes
