@@ -3,12 +3,12 @@ name: Test and Release on merge to main
 on:
   push:
     branches:
-     - main
+      - main
+    paths:
+      - ".changeset/*.md"
 
 jobs:
   merge_job:
-    # this job will only run if the PR has been merged with 'Automated merge pull request'
-    if: startsWith(github.event.head_commit.message, 'Merge pull request')
     runs-on: ubuntu-latest
     strategy:
       matrix:
