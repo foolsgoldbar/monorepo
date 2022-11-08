@@ -44,9 +44,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Commit versioning changes
-      run: 'git add --all && git commit -m "chore: release" --no-verify'
-    
     - name: Push versioning changes
       run: git push origin main --follow-tags --no-verify
     
