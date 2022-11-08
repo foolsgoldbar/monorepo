@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.4
+
+### Patch Changes
+
+- [#67](https://github.com/foolsgoldbar/monorepo/pull/67) [`ab618a7`](https://github.com/foolsgoldbar/monorepo/commit/ab618a7ce5d95826a338253f646a1fe75f2f1ee1) Thanks [@rgwozdz](https://github.com/rgwozdz)! - test
+
 ## 1.2.3
 
 ### Patch Changes

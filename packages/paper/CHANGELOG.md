@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.6.7
+
+### Patch Changes
+
+- Updated dependencies [[`ab618a7`](https://github.com/foolsgoldbar/monorepo/commit/ab618a7ce5d95826a338253f646a1fe75f2f1ee1)]:
+  - @foolbar/rock@1.2.4
+
 ## 2.6.6
 
 ### Patch Changes
