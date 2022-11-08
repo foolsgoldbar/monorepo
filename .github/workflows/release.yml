@@ -42,7 +42,7 @@ jobs:
     - name: Version
       run: npm run version
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Commit versioning changes
       run: 'git add --all && git commit -m "chore: release" --no-verify'
