@@ -1,5 +1,0 @@
----
-"@foolbar/rock": patch
----
-
-test
