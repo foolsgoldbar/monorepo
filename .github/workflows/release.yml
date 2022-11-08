@@ -50,8 +50,6 @@ jobs:
     
     - name: Publish to NPM
       run: npm run release:npm
-      env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Github release
       run: npm run release:github
