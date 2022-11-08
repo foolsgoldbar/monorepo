@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.5
+
+### Patch Changes
+
+- bd0eb15: Update Dwayne
+
 ## 1.2.4
 
 ### Patch Changes

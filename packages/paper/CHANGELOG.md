@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.6.8
+
+### Patch Changes
+
+- Updated dependencies [bd0eb15]
+  - @foolbar/rock@1.2.5
+
 ## 2.6.7
 
 ### Patch Changes
