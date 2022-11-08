@@ -1,6 +1,6 @@
 {
   "name": "@foolbar/scissor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "Rich Gwozdz <rgwozdz@esri.com>",
   "homepage": "https://github.com/foolsgoldbar/monorepo/tree/main/packages/scissor#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/foolsgoldbar/monorepo/issues"
   },
   "dependencies": {
-    "@foolbar/paper": "2.6.5"
+    "@foolbar/paper": "2.6.6"
   }
 }

@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.3
+
+### Patch Changes
+
+- 5b97757: update the text
+
 ## 1.2.2
 
 ### Patch Changes
