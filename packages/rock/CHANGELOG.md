@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.0.0
+
+### Major Changes
+
+- 6ccf874: new release
+- ec04eb5: BREAKING CHANGES
+
 ## 1.2.5
 
 ### Patch Changes

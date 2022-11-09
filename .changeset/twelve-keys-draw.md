@@ -1,5 +1,0 @@
----
-"@foolbar/paper": major
----
-
-Changes

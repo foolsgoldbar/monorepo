@@ -1,5 +1,18 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- 6ccf874: new release
+- 6796d9a: Changes
+
+### Patch Changes
+
+- Updated dependencies [6ccf874]
+- Updated dependencies [ec04eb5]
+  - @foolbar/rock@2.0.0
+
 ## 2.6.8
 
 ### Patch Changes

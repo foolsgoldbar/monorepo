@@ -1,5 +1,17 @@
 # @foolbar/scissor
 
+## 2.0.0
+
+### Major Changes
+
+- 6ccf874: new release
+
+### Patch Changes
+
+- Updated dependencies [6ccf874]
+- Updated dependencies [6796d9a]
+  - @foolbar/paper@3.0.0
+
 ## 1.0.6
 
 ### Patch Changes
