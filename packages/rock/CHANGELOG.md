@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- 3420f50: - breaking change 1
+  - breaking change 2
+
 ## 2.0.0
 
 ### Major Changes

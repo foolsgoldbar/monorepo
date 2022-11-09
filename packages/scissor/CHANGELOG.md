@@ -1,5 +1,12 @@
 # @foolbar/scissor
 
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies [2fee1c5]
+  - @foolbar/paper@3.1.0
+
 ## 2.0.0
 
 ### Major Changes

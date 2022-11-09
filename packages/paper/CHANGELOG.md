@@ -1,5 +1,17 @@
 # Change Log
 
+## 3.1.0
+
+### Minor Changes
+
+- 2fee1c5: - new addition 1
+  - new addition 2
+
+### Patch Changes
+
+- Updated dependencies [3420f50]
+  - @foolbar/rock@3.0.0
+
 ## 3.0.0
 
 ### Major Changes
