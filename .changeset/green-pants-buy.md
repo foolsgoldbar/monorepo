@@ -2,4 +2,5 @@
 "@foolbar/paper": minor
 ---
 
-changes here
+- new addition 1
+- new addition 2

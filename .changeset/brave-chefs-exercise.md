@@ -2,4 +2,5 @@
 "@foolbar/rock": major
 ---
 
-changes here
+- breaking change 1
+- breaking change 2
