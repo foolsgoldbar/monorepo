@@ -1,5 +1,17 @@
 # Change Log
 
+## 5.0.0
+
+### Major Changes
+
+- test
+- test
+- meHEREREERRE
+
+### Patch Changes
+
+undefinedHEREREERRE
+
 ## 4.1.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @foolbar/scissor
 
+## 2.0.4
+
+### Patch Changes
+
+undefinedHEREREERRE
+
 ## 2.0.3
 
 ### Patch Changes
