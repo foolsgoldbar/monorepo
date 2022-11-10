@@ -1,5 +1,11 @@
 # @foolbar/scissor
 
+## 2.0.5
+
+### Patch Changes
+
+- @foolbar/paper@3.1.4
+
 ## 2.0.4
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # Change Log
 
+## 6.0.0
+
+### Major Changes
+
+- testing
+- some
+- thingsHEREREERRE
+
 ## 5.0.0
 
 ### Major Changes
