@@ -6,7 +6,8 @@
     "version": "changeset version",
     "release:npm": "changeset publish",
     "release:github": "node gh-release.js",
-    "commit": "cz"
+    "commit": "cz",
+    "plan:version": "changeset --open"
   },
   "repository": {
     "type": "git",
