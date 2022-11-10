@@ -7,4 +7,4 @@ const getReleaseLine = async (
   return changeset.summary + 'HEREREERRE';
 };
 
-module.exports = { ...changelogGit, getReleaseLine }
+module.exports = { getDependencyReleaseLine: changelogGit.getDependencyReleaseLine, getReleaseLine }
