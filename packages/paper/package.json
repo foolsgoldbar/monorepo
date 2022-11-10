@@ -1,6 +1,6 @@
 {
   "name": "@foolbar/paper",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "> TODO: description",
   "author": "Rich Gwozdz <rgwozdz@esri.com>",
   "homepage": "https://github.com/foolsgoldbar/monorepo/tree/main/packages/paper#readme",
@@ -26,6 +26,6 @@
     "url": "https://github.com/foolsgoldbar/monorepo/issues"
   },
   "dependencies": {
-    "@foolbar/rock": "4.0.0"
+    "@foolbar/rock": "4.1.0"
   }
 }

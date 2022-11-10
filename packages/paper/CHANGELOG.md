@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.1.2
+
+### Patch Changes
+
+- Updated dependencies [1a76acb]
+  - @foolbar/rock@4.1.0
+
 ## 3.1.1
 
 ### Patch Changes
