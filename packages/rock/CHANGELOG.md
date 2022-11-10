@@ -1,5 +1,19 @@
 # Change Log
 
+## 4.0.0
+
+### Major Changes
+
+- 432326b: - something added
+  - something fixed
+  - something changed
+
+### Minor Changes
+
+- e213353: - shange
+  - tange
+  - breaking change
+
 ## 3.0.0
 
 ### Major Changes
