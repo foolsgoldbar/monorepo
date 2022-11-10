@@ -4,7 +4,7 @@ const getReleaseLine = async (
   changeset,
   _type
 ) => {
-  return changeset.summary;
+  return changeset.summary + 'HEREREERRE';
 };
 
 module.exports = { ...changelogGit, getReleaseLine }
